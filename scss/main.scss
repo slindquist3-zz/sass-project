@@ -1,5 +1,7 @@
 
-@import "partials/variables", "partials/mixins";
+@import "partials/variables";
+
+@import "partials/mixins";
 
 @include google-font("Alegreya+Sans")
 @include google-font("Titillium+Web");
@@ -34,6 +36,7 @@ a {
     color: darken($link-color, 15%)
   }
 }
+//
 
 .warning-button {
   @include warning;
